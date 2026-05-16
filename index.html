@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ИИ в Медицината — Приложения, Ползи и Отговорности</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="indexcss.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#intro">Увод</a></li>
+    <li><a href="#concepts">Понятия</a></li>
+    <li><a href="#applications">Приложения</a></li>
+    <li><a href="#pros-cons">Предимства</a></li>
+    <li><a href="#conclusion">Заключение</a></li>
+    <li><a href="#sources">Източници</a></li>
+  </ul>
+</nav>
+
+<header>
+  <div class="hero-grid"></div>
+  <div class="hero-orb a"></div>
+  <div class="hero-orb b"></div>
+
+  <div class="hero-content">
+    <h1>
+      Изкуственият интелект
+      <span class="line-accent">в Медицината</span>
+    </h1>
+    <p class="hero-sub">Приложения, ползи и отговорности в ерата на дигиталното здравеопазване</p>
+
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <span class="num">45%</span>
+        <span class="label">от диагностичните задачи могат да се автоматизират</span>
+      </div>
+      <div class="hero-meta-item">
+        <span class="num">$150 млрд.</span>
+        <span class="label">прогнозна стойност на пазара до 2026 г.</span>
+      </div>
+      <div class="hero-meta-item">
+        <span class="num">30%</span>
+        <span class="label">ускоряване на разработката на лекарства</span>
+      </div>
+    </div>
+  </div>
+
+</header>
+
+<main>
+
+  <!-- INTRO -->
+  <section id="intro">
+    <div class="section-number">01 · Увод</div>
+    <h2>Технологията, която преосмисля медицината</h2>
+
+    <div class="intro-layout">
+      <div>
+        <p>Изкуственият интелект (ИИ) навлиза с все по-бързи темпове в сферата на здравеопазването, трансформирайки начина, по който се поставят диагнози, планират лечения и се грижи за пациентите. От анализ на медицински изображения до персонализирана медицина и управление на болничните процеси — ИИ вече не е само теоретична концепция, а реален инструмент в клиничната практика.</p>
+        <p>Настоящата разработка разглежда основните понятия, свързани с ИИ в медицината, представя конкретни примери за неговото приложение, анализира предимствата и ограниченията му, и поставя въпроса за отговорното му използване.</p>
+        <div class="highlight-box">
+          <p><strong>Важно:</strong> Въпреки впечатляващите възможности на ИИ, той не замества лекаря — а го подпомага. Медицинската отговорност, емпатията и клиничната преценка остават изключително в компетенциите на човека.</p>
+        </div>
+      </div>
+
+      <blockquote class="intro-pull">
+        „ИИ в медицината е като мощен микроскоп — не вижда вместо лекаря, а му показва повече, отколкото окото само може да долови."
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- CONCEPTS -->
+  <section id="concepts">
+    <div class="section-number">02 · Основни понятия</div>
+    <h2>Терминология и ключови концепции</h2>
+    <p>За да разберем как ИИ функционира в медицинска среда, е необходимо да познаваме основните понятия, на които се основава тази технология.</p>
+
+    <div class="concepts-grid">
+      <div class="concept-card">
+        <span class="concept-icon">🧠</span>
+        <div class="concept-term">Изкуствен интелект (ИИ)</div>
+        <p class="concept-def">Съвкупност от компютърни системи, способни да извършват задачи, изискващи човешки интелект — разпознаване на образи, вземане на решения, обработка на естествен език.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">📊</span>
+        <div class="concept-term">Машинно обучение (МО)</div>
+        <p class="concept-def">Подраздел на ИИ, при който алгоритмите се „учат" от данни, подобрявайки своята точност без изрично програмиране за всяка задача.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">🔗</span>
+        <div class="concept-term">Дълбоко обучение</div>
+        <p class="concept-def">Техника на машинното обучение, използваща многослойни невронни мрежи за разпознаване на сложни закономерности в данните — особено ефективна при анализ на изображения.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">💬</span>
+        <div class="concept-term">Обработка на естествен език (NLP)</div>
+        <p class="concept-def">Технология, позволяваща на компютрите да разбират, интерпретират и генерират човешки език — използва се за анализ на медицинска документация.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">🎯</span>
+        <div class="concept-term">Компютърно зрение</div>
+        <p class="concept-def">Способността на ИИ системите да интерпретират и анализират визуална информация — рентгенови снимки, ЯМР, патологични препарати.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">👤</span>
+        <div class="concept-term">Персонализирана медицина</div>
+        <p class="concept-def">Подход, при който лечението е адаптирано към индивидуалните характеристики на пациента — генетика, начин на живот и история на заболяването.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">🔮</span>
+        <div class="concept-term">Предиктивна аналитика</div>
+        <p class="concept-def">Използване на исторически данни и ИИ модели за предсказване на бъдещи медицински събития — усложнения, рецидиви, хоспитализации.</p>
+      </div>
+
+      <div class="concept-card">
+        <span class="concept-icon">🤖</span>
+        <div class="concept-term">Клинична система за подкрепа на решения</div>
+        <p class="concept-def">ИИ инструменти, които асистират лекарите при вземане на клинични решения, като анализират данни на пациента и препоръчват действия.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- APPLICATIONS -->
+  <section id="applications">
+    <div class="section-number">03 · Примери и приложения</div>
+    <h2>ИИ в действие — реални приложения</h2>
+    <p>Изкуственият интелект вече се използва в широк спектър от медицински области. Ето най-значимите и добре документирани приложения:</p>
+
+    <div class="apps-list">
+
+      <div class="app-item">
+        <div class="app-num">01</div>
+        <div class="app-content">
+          <span class="app-tag">Образна диагностика</span>
+          <h3>Анализ на медицински изображения</h3>
+          <p>Системи като <em>Google DeepMind's LYNA</em> и <em>Enlitic</em> анализират рентгенови снимки, МРТ и КТ изображения с точност, сравнима или надхвърляща тази на специалисти-радиолози. При скрининга на рак на гърдата ИИ алгоритми демонстрират с 11,5% по-висока точност спрямо традиционното четене от лекари. FDA е одобрила над 500 медицински ИИ устройства, голяма част от които — именно в радиологията.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <div class="app-num">02</div>
+        <div class="app-content">
+          <span class="app-tag">Онкология</span>
+          <h3>Ранна диагностика на рак</h3>
+          <p>ИИ платформата <em>Paige.AI</em> анализира патологични препарати и открива рак на простатата с точност над 98%. Системата <em>IBM Watson Oncology</em> препоръчва лечебни схеми при онкологични заболявания, като сравнява данните на пациента с хиляди научни публикации. Ранното откритие, улеснено от ИИ, значително подобрява преживяемостта.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <div class="app-num">03</div>
+        <div class="app-content">
+          <span class="app-tag">Геномика · Фармация</span>
+          <h3>Разработване на лекарства</h3>
+          <p>По време на пандемията COVID-19 компанията <em>Insilico Medicine</em> идентифицира нови молекули-кандидати само за 46 дни — процес, отнемащ традиционно години. <em>AlphaFold</em> на DeepMind реши проблема с предсказването на протеиновата структура, отваряйки нови хоризонти за таргетна терапия. ИИ намалява разходите за разработка на нови лекарства с до 70%.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <div class="app-num">04</div>
+        <div class="app-content">
+          <span class="app-tag">Кардиология</span>
+          <h3>Предиктивна кардиология и носими устройства</h3>
+          <p>Apple Watch с алгоритъма на <em>AliveCor</em> открива предсърдно мъждене с точност над 97%. Системата <em>Cardiogram</em> предсказва хипертония и диабет тип 2 чрез анализ на сърдечния ритъм. Носимите ИИ устройства позволяват непрекъснат мониторинг и ранно предупреждение за животозастрашаващи аритмии.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <div class="app-num">05</div>
+        <div class="app-content">
+          <span class="app-tag">Хирургия · Роботика</span>
+          <h3>Роботизирана и асистирана хирургия</h3>
+          <p>Системата <em>da Vinci Surgical System</em>, интегрирана с ИИ, е извършила над 10 милиона операции по света. ИИ асистирането намалява тремора, увеличава прецизността и позволява минималноинвазивни интервенции с по-бързо възстановяване. Алгоритмите анализират в реално време хирургичното поле и предупреждават за рискови зони.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <div class="app-num">06</div>
+        <div class="app-content">
+          <span class="app-tag">Психично здраве</span>
+          <h3>Ментално здраве и цифрова терапия</h3>
+          <p>Чат-ботът <em>Woebot</em> предоставя когнитивно-поведенческа терапия на база ИИ и е показал ефективност при лека до умерена депресия. <em>Mindstrong</em> анализира поведенчески модели в смартфона за ранно откриване на депресивни епизоди. Тези инструменти са особено ценни при липса на достъп до специалисти или стигма около психичните заболявания.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <div class="app-num">07</div>
+        <div class="app-content">
+          <span class="app-tag">Административни процеси</span>
+          <h3>Клинична документация и управление</h3>
+          <p>ИИ системите за обработка на естествен език автоматично генерират медицински бележки от гласови записи, спестявайки на лекарите часове административна работа. Платформата <em>Nuance DAX</em> редуцира с до 50% времето за документация. Предиктивните алгоритми оптимизират болничния капацитет и управлението на персонала.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROS & CONS -->
+  <section id="pros-cons">
+    <div class="section-number">04 · Предимства и ограничения</div>
+    <h2>Двете страни на медала</h2>
+    <p>Изкуственият интелект в медицината носи огромен потенциал, но и сериозни предизвикателства, изискващи внимателно осмисляне.</p>
+
+    <div class="pros-cons">
+      <div class="pros-block">
+        <div class="block-title">✦ Предимства</div>
+        <ul class="pros-cons-list">
+          <li>По-висока точност при диагностициране на определени заболявания в сравнение с конвенционалните методи</li>
+          <li>Обработка на огромни масиви от данни за секунди — невъзможно за човешкия мозък</li>
+          <li>Непрекъснат мониторинг на пациенти чрез носими устройства 24/7</li>
+          <li>Ранно предупреждение за рискови здравни промени, преди да се прояви клинична симптоматика</li>
+          <li>Персонализиране на лечението въз основа на генетичен профил и история</li>
+          <li>Ускоряване на разработката на нови лекарства с години</li>
+          <li>Намаляване на административната тежест за медицинския персонал</li>
+          <li>Подобрен достъп до диагностика в региони с недостиг на специалисти</li>
+          <li>Намаляване на човешкия фактор при рутинни диагностични задачи</li>
+        </ul>
+      </div>
+
+      <div class="cons-block">
+        <div class="block-title">◆ Ограничения и рискове</div>
+        <ul class="pros-cons-list">
+          <li>Предубеждения (bias) в обучителните данни могат да доведат до неравностойно третиране на различни популации</li>
+          <li>Липса на „черна кутия" обяснимост — трудно е да се разбере защо алгоритъмът е взел дадено решение</li>
+          <li>Правна неяснота — кой носи отговорност при грешка на ИИ: лекарят, болницата или производителят?</li>
+          <li>Рискове за поверителността и сигурността на чувствителни здравни данни</li>
+          <li>Прекомерна зависимост от технологията може да атрофира клиничните умения на медиците</li>
+          <li>Неравен достъп — богатите болници и страни ще имат предимство</li>
+          <li>Необходимост от огромни количества качествени данни за обучение на моделите</li>
+          <li>Ограничена способност за отчитане на психосоциалния контекст на пациента</li>
+          <li>Регулаторни и сертификационни предизвикателства в бързо развиваща се среда</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h3>Етични и правни отговорности</h3>
+    <p>Използването на ИИ в медицината поражда редица етични въпроси. <strong>Информираното съгласие</strong> изисква пациентите да бъдат уведомени когато се използват ИИ системи в тяхното лечение. <strong>Прозрачността</strong> налага алгоритмите да могат да бъдат обяснени и одитирани. <strong>Справедливостта</strong> изисква ИИ системите да работят еднакво добре за всички пациентски групи, независимо от раса, пол или социален статус.</p>
+
+    <div class="highlight-box">
+      <p>Европейският съюз прие <strong>Закона за изкуствения интелект (AI Act)</strong> през 2024 г., класифицирайки медицинските ИИ системи като „висок риск" и изисквайки строг регулаторен контрол, одити и прозрачност преди пускане на пазара.</p>
+    </div>
+  </section>
+
+  <!-- CONCLUSION -->
+  <section id="conclusion">
+    <div class="section-number">05 · Заключение</div>
+    <h2>Бъдещето на медицината е колаборативно</h2>
+
+    <div class="conclusion-block">
+      <p>Изкуственият интелект не е просто поредната технологична вълна — той е фундаментална промяна в начина, по който разбираме, диагностицираме и лекуваме заболяванията. Потенциалът му е огромен: от спасяване на животи чрез по-ранна диагностика до демократизиране на достъпа до качествено здравеопазване в развиващите се страни.</p>
+
+      <p>Въпреки това, технологията сама по себе си не е достатъчна. Необходими са строги регулаторни рамки, прозрачни алгоритми, добре обучени медицински специалисти и преди всичко — непоколебима ангажираност към правата и достойнството на пациента.</p>
+
+      <p>Бъдещето не принадлежи нито само на машините, нито само на хората. То принадлежи на тяхното съработничество — там, където прецизността на алгоритъма среща емпатията на лекаря. Именно в тази среща се крие истинската революция в медицината.</p>
+    </div>
+  </section>
+
+  <!-- SOURCES -->
+  <section id="sources">
+    <div class="section-number">06 · Използвани източници</div>
+    <h2>Библиография и референции</h2>
+
+    <ol class="sources-list">
+      <li>
+        <div>
+          <span class="source-title">Artificial Intelligence in Healthcare: Anticipating Challenges to Ethics, Privacy, and Bias</span>
+          <span class="source-meta">Char, D.S., Shah, N.H., Magnus, D. — Journal of the American Medical Association (JAMA), 2018</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">High-performance medicine: the convergence of human and artificial intelligence</span>
+          <span class="source-meta">Topol, E.J. — Nature Medicine, Vol. 25, 2019, pp. 44–56</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">International evaluation of an AI system for breast cancer screening</span>
+          <span class="source-meta">McKinney, S.M. et al. — Nature, Vol. 577, 2020, pp. 89–94</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">AlphaFold: a solution to a 50-year-old grand challenge in biology</span>
+          <span class="source-meta">Jumper, J. et al. — Nature, Vol. 596, 2021, pp. 583–589. DeepMind Blog.</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">Regulation (EU) 2024/1689 — Artificial Intelligence Act</span>
+          <span class="source-meta">Европейски парламент и Съвет на ЕС. Official Journal of the European Union, 2024</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">Artificial Intelligence in Drug Discovery and Development</span>
+          <span class="source-meta">Paul, D. et al. — Drug Discovery Today, Vol. 26, Issue 1, 2021, pp. 80–93</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">Machine learning for mental health: opportunities and challenges</span>
+          <span class="source-meta">Shatte, A.B.R., Hutchinson, D.M., Teague, S.J. — Psychological Medicine, 2019</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">Ethics and governance of artificial intelligence for health</span>
+          <span class="source-meta">Световна здравна организация (СЗО). WHO Guidance Document, Женева, 2021</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">The role of artificial intelligence in achieving the Sustainable Development Goals</span>
+          <span class="source-meta">Vinuesa, R. et al. — Nature Communications, Vol. 11, Article 233, 2020</span>
+        </div>
+      </li>
+      <li>
+        <div>
+          <span class="source-title">FDA Artificial Intelligence and Machine Learning (AI/ML) Action Plan</span>
+          <span class="source-meta">U.S. Food and Drug Administration. Center for Devices and Radiological Health, 2021</span>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+</main>
+
+<footer>
+  <p>Изкуственият интелект в медицината: приложения, ползи и отговорности &nbsp;·&nbsp; Статичен уебсайт &nbsp;·&nbsp; 2025</p>
+</footer>
+
+</body>
+</html>
