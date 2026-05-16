@@ -502,28 +502,29 @@
     margin-top: 2rem;
     counter-reset: sources;
   }
-
+ 
   .sources-list li {
     counter-increment: sources;
     display: grid;
     grid-template-columns: 32px 1fr;
     gap: 1.2rem;
     align-items: start;
-    padding: 1.2rem 1.5rem;
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: 3px;
     font-size: 0.88rem;
     color: var(--text-muted);
     line-height: 1.6;
-    transition: border-color 0.3s;
+    transition: border-color 0.3s, background 0.3s, transform 0.2s;
+    overflow: hidden;
   }
-
-.sources-list li:hover {
+ 
+  .sources-list li:hover {
     border-color: rgba(79,195,247,0.45);
     background: var(--surface2);
     transform: translateX(4px);
   }
+ 
   .sources-list li::before {
     content: counter(sources);
     font-family: 'Playfair Display', serif;
@@ -531,9 +532,11 @@
     font-size: 0.85rem;
     color: var(--accent);
     text-align: right;
-    padding-top: 0.1rem;
+    padding: 1.2rem 0 1.2rem 1.5rem;
+    align-self: start;
   }
- .source-link {
+ 
+  .source-link {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
@@ -542,19 +545,23 @@
     color: inherit;
     cursor: pointer;
   }
+ 
   .source-title {
     font-style: italic;
     color: var(--text);
     font-weight: 400;
-  } 
-.sources-list li:hover .source-title { color: var(--accent2); }
-
+    transition: color 0.2s;
+  }
+ 
+  .sources-list li:hover .source-title { color: var(--accent2); }
+ 
   .source-meta {
     display: block;
     font-size: 0.78rem;
     color: var(--text-dim);
-    margin-top: 0.2rem;
+    margin-top: 0.1rem;
   }
+ 
   .source-url {
     display: inline-block;
     margin-top: 0.4rem;
@@ -566,7 +573,6 @@
   }
  
   .sources-list li:hover .source-url { opacity: 1; }
-
   /* ─── FOOTER ─── */
   footer {
     border-top: 1px solid var(--border);
