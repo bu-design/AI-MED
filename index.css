@@ -573,7 +573,7 @@
   }
  
   .sources-list li:hover .source-url { opacity: 1; }
-  /* ─── FOOTER ─── */
+ 
   footer {
     border-top: 1px solid var(--border);
     text-align: center;
